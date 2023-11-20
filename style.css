@@ -1,6 +1,6 @@
 .Body {
     text-align: center;
-    background-color: #1c1c1c;
+    background-color: #1aa815;
     color: white;
     margin: 0;
     padding: 0;
@@ -16,6 +16,7 @@
   body {
     margin: 0;
     padding: 0;
+    background-color: red;
   }
   
   .Body img {
@@ -37,7 +38,7 @@
   
   /* Styles for the header links */
   header {
-    background-color: #1c1c1c;
+    background-color: #1aa815;
     padding: 10px;
     text-align: center;
   }
@@ -63,7 +64,7 @@
   }
   
   header a:hover {
-    color: #ffcc00;
+    color: #ff0000;
   }
   
   /* Add the vertical lines */
@@ -97,7 +98,7 @@
     display: inline-block;
     width: 150px;
     vertical-align: top;
-    background-color: white;
+    background-color: #1aa815;
     text-decoration: none;
     
   }
@@ -107,4 +108,7 @@
   }
   p{
     margin-bottom:0;
+  }
+  h1{
+    color:white;
   }
