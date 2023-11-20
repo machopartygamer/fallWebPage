@@ -1,0 +1,110 @@
+.Body {
+    text-align: center;
+    background-color: #1c1c1c;
+    color: white;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    margin-bottom: 0;
+  }
+  
+  main {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .Body img {
+    width: 10%;
+    height: 10%;
+  }
+  
+  .Body h1 {
+    font-size: 5em;
+    margin: auto;
+    padding: 5%;
+    background-color: red;
+  }
+  
+  section{
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Styles for the header links */
+  header {
+    background-color: #1c1c1c;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  header li {
+    margin-right: 20px;
+    position: relative;
+  }
+  
+  header a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+  }
+  
+  header a:hover {
+    color: #ffcc00;
+  }
+  
+  /* Add the vertical lines */
+  header li:not(:last-child)::after {
+    content: "|";
+    position: absolute;
+    right: -10px;
+    color: white;
+  }
+  footer {
+    background-color: rgb(255, 0, 0);
+    margin: 0;
+    padding: 0;
+    margin-bottom: 0;
+  
+  }
+  
+  footer a:hover {
+    transform: scale(1.05) translateX(5px);
+  }
+  
+  footer a {
+    font-size: 20px;
+    padding-right: 10px;
+    margin-top: 0;
+    margin-left: 0;
+    border-width: 5px;
+    border-color: black;
+    border-style: solid;
+    transition: 1s;
+    display: inline-block;
+    width: 150px;
+    vertical-align: top;
+    background-color: white;
+    text-decoration: none;
+    
+  }
+  .description{
+    text-align: left;
+    font-size: 19px;
+  }
+  p{
+    margin-bottom:0;
+  }
