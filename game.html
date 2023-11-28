@@ -1,20 +1,28 @@
 <!DOCTYPE html>
-<html>
-  <head>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Christmas Game</title>
-    <link href="style.css" rel="stylesheet" type="text/css" />
-  </head>
-  <body>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="game.js"></script>
+</head>
+<body>
     <main>
-      <header>
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="game.html">Game</a></li>
-          <li><a href="more.html">More</a></li>
-        </ul>
-      </header>
-      <h1>Game</h1>
+        <header>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="game.html">Game</a></li>
+                <li><a href="more.html">More</a></li>
+            </ul>
+        </header>
+        <h1 style="text-align: center; font-size: 30px;">Game</h1>
+        <p style="text-align: center; padding-top: 10px;">Welcome to the matching game. Match all the cards to win the game!</p>
+        <div class="game">
+            <div id="game-grid" class="grid-container"></div>
+        </div>
+        
     </main>
-  </body>
+</body>
 </html>
