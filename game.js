@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', function () {
         'snowman.jpg',
         'candle.jpg',
         'bell.jpg',
-        'ornament.png',
+        'ornament.jpg',
     ];
 
     // Duplicate the images to create pairs
@@ -75,12 +75,10 @@ document.addEventListener('DOMContentLoaded', function () {
 
         // Check if all cards are matched
         if (matchedCards.length === images.length * 2) {
-            alert('Congratulations! You matched all the cards!');
+            alert("Thanks for playing! If you haven't already, visit the other sites above to learn more about Christmas.");
             let winPrompt = document.createElement('h3');
-            winPrompt.textContent = "Thanks for playing! If you haven't already, visit the other sites above to learn more about Christmas."
-            winPrompt.style.textAlign = "center";
-            winPrompt.style.color = "white";
-            document.body.appendChild(winPrompt);
+            
+
 
         }
     }
